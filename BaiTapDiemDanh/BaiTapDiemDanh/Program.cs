@@ -14,7 +14,7 @@ namespace BaiTapDiemDanh
         private Double a_131;
         private Double b_131;
         private Double c_131;
-        public PhuongTrinhB2(Double a, Double b,Double c)
+        public PhuongTrinhB2(Double a_131, Double b_131,Double c_131)
         {
             this.a_131 = a_131;
             this.b_131 = b_131;
