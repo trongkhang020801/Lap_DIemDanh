@@ -11,31 +11,31 @@ namespace BaiTapDiemDanh
     }
     class PhuongTrinhB2
     {
-        private Double a;
-        private Double b;
-        private Double c;
+        private Double a_131;
+        private Double b_131;
+        private Double c_131;
         public PhuongTrinhB2(Double a, Double b,Double c)
         {
-            this.a = a;
-            this.b = b;
-            this.c = c;
+            this.a_131 = a_131;
+            this.b_131 = b_131;
+            this.c_131 = c_131;
         }    
-        public double A { get => a; set => a = value; }
-        public double B { get => b; set => b = value; }
-        public double C { get => c; set => c = value; }
+        public double A { get => a_131; set => a_131 = value; }
+        public double B { get => b_131; set => b_131 = value; }
+        public double C { get => c_131; set => c_131 = value; }
 
-        public Double Delta(Double a, Double b, Double c)
+        public Double Delta(Double a_131, Double b_131, Double c_131)
         {
-            return b * b - 4 * a * c;
+            return b_131 * b_131 - 4 * a_131 * c_131;
         }
         
-        public Double Nghiem(Double a, Double b, Double c)
+        public Double Nghiem(Double a_131, Double b_131, Double c_131)
         {
-            Double x1, x2;
-            if (Delta(a, b, c) < 0)
+            Double x1_131, x2_131;
+            if (Delta(a_131, b_131, c_131) < 0)
                 return -1;
             else
-                if (Delta(a, b, c) == 0)
+                if (Delta(a_131, b_131, c_131) == 0)
                 return 0;
             else
                 return 1;
